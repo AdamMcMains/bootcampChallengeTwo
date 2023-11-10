@@ -2,11 +2,13 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8" />
   <meta name="bootcampChallengeTwo"/>
-  <title>Website Portfolio</title>
+  <title>Adam McMains Project Portfolio</title>
   <link rel="stylesheet" href="./assets/css/reset.css" />
   <link rel="stylesheet" href="./assets/css/style.css" />
+
 </head>
 
 <body>   
@@ -23,13 +25,13 @@
 
             <div class="header-menu">
                 
-                <h2><a href="#About-me">About me</a></h2>
+                <h2><a class="About-Me-Link" href="#About-Me">About me</a></h2>
 
-                <h2><a href="#Work">Work</a></li></h2>
+                <h2><a class="Work-Link" href="#Work">Work</a></li></h2>
 
-                <h2><a href="#Contact-me">Contact me</a></h2>
+                <h2><a class="Contact-Me-Link" href="#Contact-Me">Contact me</a></h2>
 
-                <h2><a href="#Resume">Resume</a></h2>
+                <h2><a class="Resume-Link" href="#Resume">Resume</a></h2>
 
             </div>
         
@@ -37,17 +39,31 @@
 
     </header> 
 
-    <section class="about-me">
+    <section>
+
+        <div class="header-image-display">
+
+            <img
+            src="assets/images/fragment-header-image.webp"
+            alt="placeholder image"
+            class="header-image"
+            />  
+
+        </div>
+
+    </section>
+
+    <section class="about-me" id="About-Me">
 
         <div class="about-me-side">
 
-            <h2>About me</h2>
+            <h2>About Me</h2>
 
         </div>
 
         <div class="about-me-bio">
 
-            <h2> info about me goes here</h2>
+            <h2>Info About Me Goes Here</h2>
 
         </div>  
 
@@ -55,49 +71,49 @@
 
     <main>
             
-        <section class="image-displays">
+        <section class="image-displays" id="Work">
 
             <div class="side-menu">
 
                 <h2>Work</h2>
 
             </div>
-
+            
             <div class="placeholder-images"> 
 
-                <div class="larger-image">
+                <div class="image-space">
 
-                    <img
-                        src="./assets/images/portfolio-placeholder-image-1800x916.gif"
-                        alt="placeholder image"
-                        class="image-1"
-                    />
+                    <a class="image-1-link" href="https://adammcmains.github.io/bootcampChallengeOne/">
+                    <img class="larger-image" src="assets/images/red-header-image.jpg" 
+                    alt="placeholder image" /></a>
 
                 </div>
-
-
-                <div class="smaller-images">
-
-                    <img
-                        src="./assets/images/portfolio-placeholder-image-1800x916.gif"
+                    
+                <div class="smaller-image-space">
+                
+                    <a class="image-2-link" href="#project-URL-here">
+                        <img src="assets/images/red-header-image.jpg"
                         alt="placeholder image"
                         class="image-2"
-                        />
-                    <img
-                        src="./assets/images/portfolio-placeholder-image-1800x916.gif"
+                        /></a>
+
+                     <a class="image-3-link" href="#project-URL-here">
+                        <img src="assets/images/red-header-image.jpg"
                         alt="placeholder image"
                         class="image-3"
-                        />
-                    <img
-                        src="./assets/images/portfolio-placeholder-image-1800x916.gif"
+                        /></a>
+
+                    <a class="image-4-link" href="#project-URL-here">
+                        <img src="assets/images/red-header-image.jpg"
                         alt="placeholder image"
                         class="image-4"
-                    />
-                    <img
-                        src="./assets/images/portfolio-placeholder-image-1800x916.gif"
+                        /></a>
+
+                    <a class="image-5-link" href="#project-URL-here">
+                        <img src="assets/images/red-header-image.jpg"
                         alt="placeholder image"
                         class="image-5"
-                    />  
+                        /></a>                     
                     
                 </div>
 
@@ -105,9 +121,7 @@
 
         </section>
 
-    </main>
-
-    <section class="footer">
+        <section class="footer" id="Contact-Me">
 
             <div class="footer-side">
 
@@ -117,14 +131,20 @@
 
             <div class="footer-content">
 
-                <h2><a href="#971-600-8632">971-600-8632</a></h2>
-                <h2><a href="#adammcmains@gmail.com">adammcmains@gmail.com</a></h2>
-                <h2><a href="#github">Github</a></h2>
-                <h2><a href="#twitter">Twitter</a></h2>
+                <h2><a class="phone-number-link" href="#971-600-8632">971-600-8632</a></h2>
+
+                <h2><a class="email-link" href="#adammcmains@gmail.com">adammcmains@gmail.com</a></h2>
+
+                <h2><a class="github-link" href="#github">Github</a></h2>
+
+                <h2><a class="twitter-link" href="#twitter">Twitter</a></h2>
+
 
             </div>
 
-    </section>
+        </section>
+
+    </main>
 
 </body>
 
